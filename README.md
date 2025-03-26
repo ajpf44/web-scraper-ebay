@@ -7,7 +7,7 @@ This is a simple web scraper initially intended for Amazon, but due to Amazon's 
 - The repository contains both the **backend** and **frontend**.
 
 ## Technologies Used
-- **Backend**: Express, Axios, JSDOM, TypeScript
+- **Backend**: Express, Axios, JSDOM, TypeScript, Bun
 - **Frontend**: HTML, CSS, Vanilla JavaScript, Vite
 
 ## Installation and Usage
