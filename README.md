@@ -27,13 +27,7 @@ This is a simple web scraper initially intended for Amazon, but due to Amazon's 
    bun install
    ```
 
-3. Install dependencies from back and front with a single command:
-   
-   ```sh
-   bun run install
-   ```
-
-4. Start the application:
+3. Start the application:
    
    ```sh
    bun run start
