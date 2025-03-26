@@ -16,7 +16,6 @@
 		"jsdom": "^26.0.0"
 	},
 	"scripts": {
-		"install": "concurrently \"cd back && bun install \" \"cd front && bun install \"",
-		"start": "concurrently \"cd back && bun install &&bun index.ts\" \"cd front && bun install && bun run dev\""
+		"start": "concurrently \"bun back/index.ts\" \"bun run --cwd front vite\""
 	}
 }

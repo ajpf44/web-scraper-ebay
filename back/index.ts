@@ -1,6 +1,7 @@
 import express from "express";
 import fetchEbay from "./src/service/fetch";
 import scrap from "./src/scrap/scrap";
+import {PORT_BACK} from "../config.js"
 
 const app = express();
 
@@ -30,6 +31,7 @@ app.get("/api/scrape", async (req, res) => {
 	}
 });
 
-app.listen(8080, async () => {
-	console.log("Server running on port 8080");
+const port = PORT_BACK || 6464
+app.listen( port , async () => {
+	console.log("Backend running on port " + port);
 });

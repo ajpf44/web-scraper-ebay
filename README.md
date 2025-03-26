@@ -13,12 +13,13 @@ This is a simple web scraper initially intended for Amazon, but due to Amazon's 
 ## Installation and Usage
 ### Prerequisites
 - Ensure **Bun** is installed on your system.
+- Make sure that port 8080 (for the backend) and port 5173 (for the frontend) are free on your machine. Alternatively, you can change the ports in the config.js file at the root.
 
 ### Steps
 1. Clone the repository:
    
    ```sh
-   git clone <repository_url>
+   git clone https://github.com/ajpf44/web-scraper-ebay.git
    ```
 
 2. Navigate to the project folder and install dependencies:
